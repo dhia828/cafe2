@@ -9,6 +9,7 @@
 /* general */
 html,body{
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 
@@ -68,7 +69,7 @@ a{
 /*  vp */
 .vp{
   height: 700px;
-  background: url(../images/frame.jpg) center center;
+  background: url(../images/frame\ .jpg) center center;
   background-size: cover;
   text-align: center;
 }
@@ -121,3 +122,20 @@ a{
   margin-bottom: 10px;
 }
 
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+/* Features */
+.feature{
+  float: left;
+  width: 50%;
+}
+
+.features{
+  padding: 100px 0px;
+  overflow: auto;
+  text-align: center;
+}
